@@ -58,6 +58,7 @@ animation-delay: 1.2s;
     font-size: 3rem;
     color: var(--white-color);
     font-weight: 700;
+    text-align: center;
 }
 
 nav a {
@@ -154,6 +155,7 @@ section.active {
     display: flex;
     align-items: center;
     gap: 5rem;
+    text-align: center;
 }
 
 .home-detail h1 {
@@ -166,6 +168,10 @@ section.active {
     font-size: 3.2rem;
     margin-top: -1rem;
 
+}
+
+.home-detail p {
+    text-align: center;
 }
 
 .home-detail h2 span {
@@ -247,7 +253,8 @@ section.active {
 
 .home-detail .btn-sci .sci a {
     display: inline-flex;
-    padding: .8rem;
+    margin-left: 1rem;
+    padding: 1rem;
     border: .2rem solid var(--main-color);
     border-radius: 50%;
     font-size: 2rem;
@@ -257,6 +264,11 @@ section.active {
 
 
 }
+
+.home-detail .btn-sci .btn {
+    margin-left: 100px;
+}
+
 
 .home-detail .btn-sci .sci a:hover {
     background: var(--main-color);
@@ -617,6 +629,7 @@ section.active {
 
 .portfolio-detail {
     display: none;
+    text-align: center;
 
 }
 
@@ -783,6 +796,7 @@ section.active {
 
 .contact-box p {
     font-size: 1.6rem;
+    text-align: center;
 }
 
 .contact-box .desc {
